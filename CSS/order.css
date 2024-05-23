@@ -351,75 +351,27 @@
 
     }
 
-    /*iphoNe SE*/
+    @media (max-width:390px) and (min-width:375px){
 
-    @media (max-width:375px) {
       .order{
         height: 290vh;
       }
-
       .legend{
-        height: 20vh;
+        height: 25vh;
+        margin-right: 2%;
       }
 
       .legend1{
-        height: 63vh;
+        height: 65vh;
       }
       .form-order{
-        height: 83vh;
-      }
-
-      .form{
-        height: 158vh;
-     }
-    }
-
-    /*surface duo*/
-
-    @media (max-width:540px){
-      .order{
-        height: 280vh;
-      }
-
-      .legend{
-        height: 20vh;
-      }
-
-      .legend1{
-        height: 63vh;
-      }
-      .form-order{
-        height: 83vh;
-      }
-
-      .form{
-        height: 158vh;
-     }
-    }
-
-    /*azuz*/
-
-    @media (max-width:853px){
-      .order{
-        height: 160vh;
-      }
-
-      .legend{
-        height: 10vh;
-      }
-
-      .legend1{
-        height: 40vh;
-      }
-      .form-order{
-        height: 43vh;
-      }
-
-      .form{
         height: 100vh;
+      }
+
+      .form{
+        height: 158vh;
      }
     }
-
 
 
 

@@ -175,22 +175,20 @@
       
     }
 
-    .img-sec{
-      height: 225px;
-      background-color: #ac9a89;
-    }
-
     .venue-cont .img1{
+      height: 225px;
       background-image: url(../Images/dole.jpg);
       background-size: cover;
       background-position: center;
     }
     .venue-cont .img2{
+      height: 225px;
       background-image: url(../Images/yas.jpg);
       background-size: cover;
       background-position: center;
     }
     .venue-cont .img3{
+      height: 225px;
       background-image: url(../Images/tropikal.jpg);
       background-size: cover;
       background-position: center;

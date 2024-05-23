@@ -448,51 +448,9 @@ input[type="checkbox"] {
       }
     }
 
-/*Iphobe SE*/
-@media (max-width:375px){
-  input[type="text"] {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #000;
-    width: 60%;
-  }
 
-  .bg{
-    height: 170vh;
-  }
-
-}
-
-/*iphone 12 pro*/
-
-@media (max-width:390px){
-  .bg{
-    height: 130vh;
-  }
-}
-
-/*surface pro*/
-
-@media (max-width:912px){
-  .bg{
-    height: 90vh;
-  }
-}
-
-/*surface duo*/
-
-@media (max-width:540px){
-  .bg{
-    height: 140vh;
-  }
-}
-
-/*azuz....*/
-
-@media (max-width:853px){
-  .bg{
-    height: 90vh;
-  }
-}
-  
-
+    @media (max-width:390px) and (min-width:375px){
+      .bg{
+        height: 160vh;
+      }
+    }
