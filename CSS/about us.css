@@ -385,7 +385,7 @@ h3{
     
   }
   
-  @media(max-width:930px) and (min-width:200px){
+  @media (max-width:930px) and (min-width:200px){
     html, body {
     overflow-x: hidden;
     }
@@ -487,6 +487,121 @@ h3{
   }
   
   }
+  
+ /*ipad mini*/
+  @media (max-width:820px)  {
+
+    .section{
+      height: 80vh;
+    }
+
+    .content-section .title{
+      margin-right:-20%;
+    }
+
+    .image-section{
+      width:60%;
+      height:40vh;
+      margin-left: 3%;
+      float: none;
+    }
+
+    .content-section .content{
+      margin-right: -22%;
+
+    }
+  }
+
+  /*iphone SE*/
+  
+  @media (max-width:375px) {
+    .section{
+      height: 150vh;
+    }
+
+    .image-section{
+      width:60%;
+      margin-left: -7%;
+    }
+
+    .cont{
+      height: 125vh;
+      margin-left: 8%;
+  }
+
+  }
+
+  /*samsung 20*/
+  @media (max-width:412px){
+    .section{
+      height: 110vh;
+    }
+
+    .image-section{
+      width:50%;
+      margin-left: -9%;
+    }
+
+    .cont{
+      height: 100vh;
+  }
+
+  }
+
+    /*surface pro*/
+    @media (max-width:912px) {
+
+      .section{
+        height: 60vh;
+      }
+  
+      .content-section .title{
+        margin-right:-20%;
+      }
+  
+      .image-section{
+        width:60%;
+        height:40vh;
+        margin-left: -1%;
+        float: none;
+      }
+  
+      .content-section .content{
+        margin-right: -22%;
+  
+      }
+      .cont{
+        height: 70vh;
+    }
+    }
+
+     /*surface duo*/
+     @media (max-width:540px) {
+
+      .section{
+        height: 110vh;
+      }
+  
+      .content-section .title{
+        margin-right:-20%;
+      }
+  
+      .image-section{
+        width:60%;
+        height:40vh;
+        margin-left: 3%;
+        float: none;
+      }
+  
+      .content-section .content{
+        margin-right: -22%;
+  
+      }
+      .cont{
+        height: 110vh;
+    }
+    }
+
 
  
 
